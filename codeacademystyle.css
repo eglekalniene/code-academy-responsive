@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+p {
+    line-height: 1.74;
+}
+
+.container {
+    max-width: 1230px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-box-wrap {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main-header {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+ul.main-menu {
+    padding-left: 0;
+    text-align: right;
+}
+
+.main-header {
+    background-color: white;
+    margin: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+    padding: 30px 14px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu-item a:hover {
+    opacity: 0.8;
+}
+
+
+.main-header-logo img {
+    background-color: white;
+}
+
+a.button {
+    padding: 13px 30px;
+    border-width: 30px;
+    border-radius: 30px;
+    background-color: #1200ff;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+.button:hover a {
+    background-color: #574aff;
+}
+
+.top-section-wrap {
+    background-color: black;
+    padding-top: 170px;
+}
+
+.top-section-name {
+    font-size: 100px;
+    margin: 0;
+}
+
+.top-section-content-wrap {
+    max-width: 670px;
+    padding-bottom: 386px;
+}
+.services-wrap {
+    display: flex;
+}
+.servise-item {
+    width: 50%;
+    margin-bottom: 74px;
+}
+
+.servise-item:first-child {
+    padding-right: 115px;
+}
+
+.servise-item:last-child {
+    padding-left: 115px;
+    border-left: 1px solid white;
+}
+
+
+.service-name {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+.top-section-wrap .top-section-content-wrap p {
+    color: white;
+    font-size: 17px;
+    max-width: 370px;
+}
+
+.services-wrap div {
+    display: inline-block;
+}
+
+.services-wrap {
+    padding-bottom: 20px;
+}
+
+
+.bottom-section-wrap {
+    background-color: white;
+    color: black;
+    padding: 60px 0 0 0;
+}
+
+.bottom-section-name {
+    font-size: 72px;
+}
+
+.bottom-section-description {
+    font-size: 14px;
+    max-width: 470px;
+}
+
+.bottom-section-description p {
+    margin: 0;
+}
+
+.bottom-section-facts-wrap {
+    margin-left: 200px;
+    margin-top: 88px;
+}
+
+ul.bottom-section-facts-list {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li.bottom-section-facts-item {
+    margin-bottom: 88px;
+    font-weight: 700;
+    width: 47%;
+}
+
+.bottom-section-fact {
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.bottom-section-fact.small {
+    font-size: 72px;
+    margin-bottom: 21px;
+}
+
+@media screen and (max-width: 899px) {
+    .servise-item:first-child {
+        padding-right: 70px;
+    }
+    
+    .servise-item:last-child {
+        padding-left: 70px;
+    }
+    .hero-box-wrap {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 799px) {
+    .main-navigation {
+        display: none;
+    }
+    .page-title {
+        font-size: 70px;
+    }
+    .facts-header {
+        font-size: 50px;
+    }
+    .hero-box-wrap {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .servise-item:first-child {
+        padding-right: 40px;
+    }
+    
+    .servise-item:last-child {
+        padding-left: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 599px) {
+    .service-list {
+        flex-wrap: wrap;
+    }
+    .service-item {
+        width: 100%;
+    }
+    .servise-item:first-child {
+        padding-right: px;
+    }
+    
+    .servise-item:last-child {
+        padding-left: 0px;
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .page-title {
+        font-size: 50px;
+    }
+    .facts-header {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 749px) {
+    
+    
+}
+
+
